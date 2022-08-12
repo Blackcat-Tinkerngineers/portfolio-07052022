@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Merienda-Bold
+font link: https://fonts.google.com/specimen/Merienda
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+Slogan Font: officecodepro-light.otf
+
+icon designer: Alvaro Cabrera
+icon designer link: /vendetusvectores
+        
+{"bg":"#F1E4E9","icon-gradient-0":"#0D2545","icon-gradient-1":"#A21F44","font":"#13182E","slogan":"#272c42"}
+      

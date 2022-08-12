@@ -29,18 +29,8 @@
   }
 }
 
-.monogram {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2em;
-  height: 2em;
-  margin-right: 0.5rem;
-  color: var(--c-black);
-  font-weight: 900;
-  letter-spacing: -0.125rem;
-  border: 3px solid currentColor;
-  border-radius: 50%;
+.img {
+  
 }
 
 .social {
@@ -52,7 +42,8 @@
   }
 }
 
-.socialicon {
+.social,
+.i {
   display: block;
   width: 1.25rem;
   height: 1.25rem;
