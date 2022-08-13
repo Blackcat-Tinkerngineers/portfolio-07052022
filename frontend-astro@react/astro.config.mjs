@@ -5,11 +5,14 @@ import tailwind from "@astrojs/tailwind";
 
 import react from "@astrojs/react";
 
-// https://astro.build/config
-export default defineConfig({
+
+export default ({
   integrations: [preact(), react(), tailwind()],
   output: "server",
-  adapter: netlify({
-    dist: new URL("./dist", import.meta.url),
-  }),
+  adapter: netlify(
+    {
+      dist: new URL("./dist", import.meta.url),
+    }
+  ),
+  renderers: ["@astrojs/renderer-react"],
 });

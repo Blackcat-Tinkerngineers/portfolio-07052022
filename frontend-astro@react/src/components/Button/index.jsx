@@ -1,8 +1,11 @@
 import { h } from "preact";
+import React from "react";
 import Styles from "./styles.module.scss";
 
-function Button({ children }) {
-  return <span className={Styles.button}>{children}</span>;
+const Button = ({ children }) =>{
+  return (
+    <button>{ children }</button>
+  ) 
 }
 
 export default Button;

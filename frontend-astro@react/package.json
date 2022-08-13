@@ -1,5 +1,7 @@
 {
-  "name": "@example/portfolio",
+  "name": "portfolio-07052022",
+  "author": "Chelsie L. Bangloy-Gonsalves",
+  "description": "My portfolio built with astro, react, and node",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,19 +12,24 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/preact": "^1.0.0",
+    "@astrojs/preact": "^1.0.2",
     "@astrojs/react": "^1.0.0",
-    "astro": "^1.0.1",
+    "@astrojs/renderer-react": "^0.5.0",
+    "astro": "^1.0.4",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.52.2"
+    "sass": "^1.54.4"
   },
   "dependencies": {
-    "@astrojs/netlify": "^1.0.0",
+    "@astrojs/netlify": "^1.0.1",
     "@astrojs/tailwind": "^1.0.0",
     "font-awesome": "^4.7.0",
-    "preact": "^10.7.3"
-  }
+    "preact": "^10.10.2",
+    "react-helmet": "^6.1.0"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "license": "MIT"
 }
